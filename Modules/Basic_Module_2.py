@@ -72,3 +72,49 @@ print("The end")
 sequence = {'p', 'a', 's', 's'} 
 for val in sequence: 
     pass
+
+#for loop with an increment
+for i in range (1,10,2):
+    print(i)
+# here 2 is increment in this case
+
+#CONDITIONALS
+#Conditionals include less than(<), grater than (>), equal to(==), not equal to(!=), less than- equal to(<=), greater than- eual to(>=).
+
+#ARRAY
+#An array is a collection of similar data elements stored at cintiguous memory location.
+#It is the simplest data structure where each data element can be accused directly by only using it's index number.
+#indexing starts from 0
+myarray=[2,3,4,5,6]
+print (myarray[1])
+
+#INFINITE LOOP
+#b=0
+#while(1):   {1, means always true and 0, means always false}
+#   print(b)
+#   b=b+1
+
+#DEFINING A FUNCTION, print is used inside the function, i.e. why print is not used while calling the function
+def my_name():
+    print("Kamal Verma")
+my_name()
+
+#FUNCTIONS WITH ARGUMENTS, return is used due to that print is used while calling the function
+def square_area(l):
+    a=l*l
+    return a
+print(square_area(2))
+
+#FUNCTONS WITH THE MULTIPLE ARGUMENTS
+def rectangle_area(l,b):
+    a=l*b
+    return a
+print(rectangle_area(2,3))
+
+#WHAT IS PYTHON LIBRARIES
+#A python library is simply a collection of codes or modules of codes that we can use in a program for specific operations.
+
+#RANDOM LIBRARY
+#This is library is used to get a random number from the system in the given integer range.
+import random
+print(random.randint(1,100))
